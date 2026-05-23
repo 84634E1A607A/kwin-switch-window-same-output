@@ -1,0 +1,18 @@
+{
+  "KPlugin": {
+    "Name": "Switch Window Down Same Output",
+    "Description": "Switch to the window below the active window, constrained to the active window's monitor/output.",
+    "Icon": "preferences-system-windows",
+    "Authors": [
+      {
+        "Name": "Ajax Dong"
+      }
+    ],
+    "Id": "switch-window-down-same-output",
+    "Version": "0.1",
+    "License": "MIT"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}
